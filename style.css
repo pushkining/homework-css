@@ -1,0 +1,133 @@
+nav ul { list-style: none;
+     margin: 0; 
+     padding: 0 0 0 0;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;     
+}
+nav a  { text-decoration: none;
+     display: block;
+     flex-grow: 3;
+     color: grey;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 16px;
+     text-align: center;
+     padding: 0px 20px;
+}
+h1, h2, p {
+     font-weight: 10;
+}
+a:last-child{
+     /*padding:0;*/ 
+}
+header {
+     background-image: url(img/005-005.png);
+     background-repeat: no-repeat;
+     height: 590px;
+} 
+nav{ background: rgba(255, 255, 255, 0.7);
+}
+nav img:first-child {
+     padding: 25px 0 5px 160px;
+}
+h1 { font-size: 70px !important;
+     color: #fff;
+     text-transform: uppercase;
+     font-family: Arial, Helvetica, sans-serif;
+     vertical-align: bottom;
+     font-weight: bold;
+     padding: 250px 0 0 300px;
+     margin-bottom: 0;
+}
+header p {
+     font-size: 25px;
+     color: #fff;
+     margin-top: 0;
+     padding: 0 0 0 420px;
+}
+#foo {
+     text-align: center;
+     color: #696868;
+     font-size: 18px;
+}
+#foo h2 {
+     margin: 70px 0 25px 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 35px;
+     font-weight: 0 !important;
+     letter-spacing: 1.5px;
+}
+#note {
+     font-family: Arial, Helvetica, sans-serif;
+     margin:10px 230px 90px 230px; 
+}
+.circle {
+     position: relative;
+     left: 170px; 
+     word-spacing: 70px;
+}
+.content{
+     margin-top: 50px;
+}
+.content > div {    
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 0.5px;
+}
+.content img {
+     float: left;
+     padding-right: 15px;
+}
+.reseach {
+     padding:25px 40px 35px 200px;
+     text-align: justify;
+     color: #696868;
+     line-height: 18px;
+     width: 945px;
+}
+.reseach h2 {
+     margin-top: 5px;
+}
+footer {
+     background: #383838;    
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+     font-family: Arial, Helvetica, sans-serif;
+}
+footer h2 {
+     color: #fff;
+     font-weight: 0 !important;
+     text-align: center; 
+}
+footer ul {     
+     list-style: none;
+     padding-left: 5px;
+          
+}
+footer li a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: 0 !important;
+         
+}
+.submenu {
+     
+     padding: 30px 30px 20px 30px;
+}
+#social-web {
+     height: 30%;
+     padding: 50px 20px 0 20px;
+     word-spacing: 15px;
+}
+#social-web a {
+     
+}
+footer span {
+     color: #fff;
+     position: absolute;
+     padding-left: 20px;
+}
+#wrapper-social {
+     position: relative
+}
