@@ -70,12 +70,13 @@ header p {
 .circle {
      display: flex;
      flex-wrap: wrap;
-     display: block;
+     
      /*position: relative;
      left: 170px; */
      word-spacing: 70px;
      width: 1079px;
 }
+.circle img {display: block;}
 .content{
      margin-top: 50px;
 }
@@ -163,10 +164,14 @@ footer span {
      .circle {
           display: block;
           float: left;
-          width: 100%;}
+          width: 100%;
+          padding: 0 0 0 50px;}
      .reseach {padding:0 0 0 50px}
     
 }
-@media (max-width:470px){
-
+@media (max-width:520px){
+     #web-social {
+          position: static;
+     }
+     footer span {position: static}
 }
