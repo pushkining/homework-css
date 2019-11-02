@@ -31,12 +31,13 @@ header {
      background-image: url(img/005-0050.png);
      background-repeat: no-repeat;
      height: 590px;
+     background-size: cover;
 } 
 nav{ background: rgba(255, 255, 255, 0.7);
      position: absolute;
      width: 100%;
 }
-h1 { font-size: 70px !important;
+h1 { font-size: 70px /*!important*/;
      color: #fff;
      text-transform: uppercase;
      font-family: Arial, Helvetica, sans-serif;
@@ -70,16 +71,20 @@ header p {
 .circle {
      display: flex;
      flex-wrap: wrap;
-     
+     justify-content: center;
      /*position: relative;
-     left: 170px; */
+     left: 170px; 
      word-spacing: 70px;
-     width: 1079px;
+     width: 1079px;*/
+     
 }
-.circle img {display: block;}
-.content{
-     margin-top: 50px;
-}
+.circle img {
+     margin: auto;
+     display: block;
+     padding: 0 20px 0 20px;}
+/*.content{
+      margin-top: 50px; 
+}*/
 .content > div {    
      font-family: Arial, Helvetica, sans-serif;
      letter-spacing: 0.5px;
@@ -89,6 +94,7 @@ header p {
      padding-right: 15px;
 }
 .reseach {
+     margin: 0;
      padding:25px 40px 35px 200px;
      text-align: justify;
      color: #696868;
@@ -151,6 +157,9 @@ footer span {
           width: 100%;
           text-align: center;
      }
+     .circle img {
+          padding: 10px 0 10px 0;
+     }
      .reseach {padding:0 0 0 100px}
 
 
@@ -160,18 +169,47 @@ footer span {
      flex-direction: column}
      header p {padding: 0 0 0 210px;
           justify-content: center;}
-         
+     h1 {
+          font-size: 30px;
+     }
+     header p {
+          font-size: 13px;
+     }   
      .circle {
           display: block;
           float: left;
           width: 100%;
           padding: 0 0 0 50px;}
+
      .reseach {padding:0 0 0 50px}
     
 }
 @media (max-width:520px){
+     nav ul { align-items: flex-start;
+          padding: 0 0 0 0;
+          margin: 0;
+     }
+     #nav-img {
+          float: left;
+          padding: 25px 0 15px 50px;
+     }
      #web-social {
           position: static;
      }
      footer span {position: static}
+}
+@media (max-width: 400px) {
+     
+     .reseach{
+          padding: 0 10px 0 10px;
+     }
+     .circle {
+          padding: 0 0 0 0;
+     }
+     .content img {
+          padding:0 10px 10px 0;
+     }
+}
+@media (max-width: 350px) {
+     .submenu { padding: 0 5px 0 5px;}
 }
