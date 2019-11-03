@@ -149,7 +149,9 @@ footer span {
 }
 @media (max-width:1009px){
      header {position: relative;
-          justify-content: center}
+          justify-content: center;
+          height: 0%;
+     }
      h1 { padding: 210px 0 0 100px;}
      #note {
           padding-bottom: 20px;
@@ -161,7 +163,10 @@ footer span {
           padding: 10px 0 10px 0;
      }
      .reseach {padding:0 0 0 100px}
-
+     #social-web {
+          height: 28%;
+          padding: 48px 22px 23px 20px;
+     }
 
 }
 @media (max-width:700px) {
@@ -182,7 +187,10 @@ footer span {
           padding: 0 0 0 50px;}
 
      .reseach {padding:0 0 0 50px}
-    
+     #social-web {
+     height: 41%;
+     padding: 22px 22px 38px 20px;
+     }
 }
 @media (max-width:520px){
      nav ul { align-items: flex-start;
@@ -209,7 +217,14 @@ footer span {
      .content img {
           padding:0 10px 10px 0;
      }
+     #social-web {
+          height: 45%;
+     }
 }
 @media (max-width: 350px) {
      .submenu { padding: 0 5px 0 5px;}
+     #social-web {
+          height: 26%;
+          padding: 22px 22px 38px 20px;
+     }
 }
